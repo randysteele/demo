@@ -17,7 +17,7 @@ class Application extends Component {
     }
     
     handleClick = () => {
-        this.setState({count: this.state.count + 1 })
+
     }
 
     render(){
