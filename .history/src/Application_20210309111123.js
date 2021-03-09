@@ -16,9 +16,6 @@ class Application extends Component {
         console.log(`Mounted with, ${props}, ${state} `)
     }
     
-    handleClick = () => {
-
-    }
 
     render(){
         let {count} = this.state;
@@ -27,7 +24,7 @@ class Application extends Component {
        <div>
        <h1> 'Hello, {name}, you clicked the button {count} times'</h1>
        <span>This is {name}
-       <button onClick={(e) => this.handleClick} > Click ME </button>
+       <button Click ME ></button>
        </span>
        </div>
        )}
